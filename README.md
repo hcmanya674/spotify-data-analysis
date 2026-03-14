@@ -38,4 +38,5 @@ The analysis helps explore whether higher danceability or certain BPM ranges are
 ## How to Run the Project
 1. Clone the repository
 2. Install required libraries
+3. Run the Python script
 
