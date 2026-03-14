@@ -21,6 +21,7 @@ figure=px.scatter_3d(
     hover_name='track_name',
     title="spotify analytics"
 )
+fig.write_html("spotify_visualization.html")
 figure.write_html("spotify_visualization.html")
 figure.show()
 
