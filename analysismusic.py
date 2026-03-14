@@ -22,3 +22,14 @@ figure=px.scatter_3d(
     title="spotify analytics"
 )
 figure.show()
+
+top_songs = dataframe.nlargest(10, 'streams')
+print(top_songs[['track_name','streams']])
+
+px.histogram(
+    dataframe,
+    x='streams',
+    title='Distribution of Spotify Streams'
+).show()
+
+figure.write_html("spotify_visualization.html")
