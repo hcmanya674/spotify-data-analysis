@@ -41,6 +41,9 @@ The analysis helps explore whether higher danceability or certain BPM ranges are
 3. Run the Python script
 
 ## Interactive Visualization
-spotify1.png
-spotify2.png
+
+![Spotify Visualization](spotify1.png)
+
+![Spotify Visualization](spotify2.png)
+
 
